@@ -1,0 +1,49 @@
+.app-stylish-background {
+  background: radial-gradient(
+    circle,
+    rgba(0, 123, 255, 0.15) 0%,
+    rgba(255, 111, 97, 0.1) 50%,
+    #f8f9fa 100%
+  );
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-transform:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-primary:hover {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+.hover-success:hover {
+  color: #28a745 !important;
+}
+
+.card-img-top {
+  transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+}
+
+.card-body {
+  background-color: #ffffff !important;
+}
+
+@media (max-width: 576px) {
+  .app-stylish-background {
+    padding: 1rem;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+}

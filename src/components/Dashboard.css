@@ -1,0 +1,61 @@
+.dashboard-professional-background {
+  background: linear-gradient(180deg, #e9ecef 0%, #ffffff 100%);
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-body {
+  background-color: #ffffff !important;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-transform:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-primary:hover {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+.hover-border-primary:hover {
+  border-color: #007bff !important;
+}
+
+.hover-bg-success-dark:hover {
+  background-color: #218838 !important;
+}
+
+.card-img-top {
+  transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
+.dashboard-pattern-background {
+  background-image: url("https://www.transparenttextures.com/patterns/white-diamond.png");
+  background-color: #f8f9fa;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.card-body {
+  background-color: #ffffff !important;
+}

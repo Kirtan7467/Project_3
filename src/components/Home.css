@@ -1,0 +1,48 @@
+.home-stylish-background {
+  background: radial-gradient(
+    circle,
+    rgba(0, 123, 255, 0.15) 0%,
+    rgba(255, 111, 97, 0.1) 50%,
+    #f8f9fa 100%
+  );
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-primary.hover-scale:hover {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+button[style*="background-color: #ff6f61"].hover-scale:hover {
+  background-color: #e65b50 !important;
+  border-color: #e65b50 !important;
+}
+
+.btn-primary,
+button[style*="background-color: #ff6f61"] {
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .home-stylish-background {
+    padding: 1rem;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
